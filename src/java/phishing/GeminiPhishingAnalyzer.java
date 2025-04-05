@@ -9,7 +9,7 @@ import javax.servlet.ServletContext;
 import org.json.JSONObject;
 
 public class GeminiPhishingAnalyzer {
-    private static final String GEMINI_API_KEY = "AIzaSyA-C7MjqviXeHYyglLzDUyAXLVVuLG5HV8"; // Replace with actual API key
+    private static final String GEMINI_API_KEY = "Replace with actual API key"; // Replace with actual API key
     private static final String GEMINI_API_ENDPOINT = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=" + GEMINI_API_KEY;
 
     public String analyzeUrlRisk(String inputUrl) {
